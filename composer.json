@@ -19,13 +19,15 @@
     ],
     "require": {
         "composer/installers": "^1.9",
-        "drupal/core-composer-scaffold": "^10",
+        "drupal/core-composer-scaffold": "10.2.5",
         "cweagans/composer-patches": "^1.7",
         "drupal/core": "^10",
-        "drush/drush": "^12",
+        "drush/drush": "^12.4.3",
         "drupal/tome": "^1",
         "drupal-tome/tome_drush": "dev-master",
-        "webflo/drupal-finder": "^1.2"
+        "webflo/drupal-finder": "^1.2",
+        "drupal/core-recommended": "10.2.5",
+        "drupal/core-project-message": "10.2.5"
     },
     "scripts": {
         "symlink": "./scripts/symlink.sh",
@@ -56,7 +58,8 @@
             "composer/installers": true,
             "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "drupal/core-project-message": true
         }
     }
 }
